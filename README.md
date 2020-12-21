@@ -29,9 +29,11 @@ Files:
 commands:
 
 \>g++ -fopenmp graphquicksort.cpp testmain.cpp -o run
+
 \>./run inputs/vertexcount<>
 
 \>g++ -fopenmp graphquicksort.cpp threadperf.cpp -o runthread
+
 \>./runthread inputs/vertexcount<>
 
 
